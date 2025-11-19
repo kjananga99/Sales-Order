@@ -52,7 +52,7 @@ const HomePage = () => {
         <div className="bg-white border-b-2 border-gray-800 px-4 py-2">
           <button
             onClick={() => navigate('/sales-order')}
-            className="px-4 py-1.5 bg-white border-2 border-gray-800 rounded text-sm font-medium hover:bg-gray-100 shadow-sm"
+            className="px-4 py-1.5 bg-green-100 border-2 border-green-400 rounded text-sm font-medium hover:bg-green-400 shadow-sm"
           >
             Add New
           </button>
@@ -129,7 +129,6 @@ const HomePage = () => {
           {!loading && orders.length === 0 && (
             <div className="mt-6 text-center">
               <p className="text-sm text-gray-600">No orders found. Click "Add New" to create your first sales order.</p>
-              <p className="text-xs text-gray-500 mt-2">💡 Tip: Double-click on any row to edit the order.</p>
             </div>
           )}
         </div>

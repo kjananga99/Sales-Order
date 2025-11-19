@@ -202,7 +202,7 @@ const SalesOrderPage = () => {
           <button
             type="button"
             onClick={handleSubmit}
-            className="flex items-center gap-2 px-4 py-1.5 bg-white border-2 border-gray-800 rounded shadow-sm hover:bg-gray-100"
+            className="flex items-center gap-2 px-4 py-1.5 bg-green-100 border-2 border-green-400 rounded shadow-sm hover:bg-green-400"
           >
             <span className="text-lg">✓</span>
             <span className="text-sm font-medium">Save Order</span>
